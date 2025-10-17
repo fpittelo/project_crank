@@ -2,7 +2,7 @@
 
 > "It never gets easier, you just go faster." - Greg LeMond
 
-Welcome to my personal training hub! This repository is the home of my structured training plan, designed by COACH, to transform me from a solid rider into a Zwift race contender and a mountain-climbing machine. This is where watts meet willpower.
+Welcome to my personal training hub! This repository is the home of my structured training plan, designed by Gemini COACH, to transform me from a solid rider into a Zwift race contender and a mountain-climbing machine. This is where watts meet willpower.
 
 ---
 
