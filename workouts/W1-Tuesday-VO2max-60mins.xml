@@ -1,0 +1,44 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W1-Tuesday-VO2max-60mins</name>
+    <description>Total duration: 60 minutes. This session targets your top-end power (VO2max), building the capacity to handle race-winning moves and hard climbs. Based on FTP of 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="VO2MAX"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Let's begin the 7-minute warm-up ramp."/>
+            <textevent timeoffset="410" message="Get ready for the activators."/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01">
+            <textevent timeoffset="0" message="Activators: 30 seconds easy, 30 seconds at FTP."/>
+            <textevent timeoffset="170" message="Activators complete. Main set is next."/>
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="180" OnPower="1.16" OffDuration="180" OffPower="0.50">
+            <textevent timeoffset="0" message="Interval 1 of 5. 3 minutes at 265W. Find a hard but sustainable rhythm."/>
+            <textevent timeoffset="170" message="Almost there..."/>
+            <textevent timeoffset="180" message="Good. Recover. Bring the heart rate down."/>
+            <textevent timeoffset="360" message="Interval 2 of 5. Let's go! Same focus."/>
+            <textevent timeoffset="530" message="Stay strong."/>
+            <textevent timeoffset="540" message="Recovery. Two down."/>
+            <textevent timeoffset="720" message="Interval 3 of 5. This is the halfway point. Dig in."/>
+            <textevent timeoffset="890" message="Push through."/>
+            <textevent timeoffset="900" message="Excellent. Recover."/>
+            <textevent timeoffset="1080" message="Interval 4 of 5. This is where the real gains are made."/>
+            <textevent timeoffset="1250" message="Don't quit."/>
+            <textevent timeoffset="1260" message="Great work. One last interval to go."/>
+            <textevent timeoffset="1440" message="Final interval! Empty the tank."/>
+            <textevent timeoffset="1610" message="Finish strong!"/>
+            <textevent timeoffset="1620" message="Main set complete! Fantastic effort."/>
+        </IntervalsT>
+        <SteadyState Duration="1020" Power="0.66">
+            <textevent timeoffset="0" message="Now for 17 minutes of endurance riding at 150W."/>
+            <textevent timeoffset="1010" message="Get ready for the cool-down."/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Cool-down. Let your heart rate come down gradually."/>
+            <textevent timeoffset="170" message="Workout complete. Well done."/>
+        </Cooldown>
+    </workout>
+</workout_file>
