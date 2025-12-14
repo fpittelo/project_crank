@@ -1,44 +1,61 @@
 <workout_file>
     <author>COACH</author>
     <name>1-Tuesday-VO2Max-60</name>
-    <description>Total duration: 60 minutes. This session targets your top-end power (VO2max), building the capacity to handle race-winning moves and hard climbs. Based on FTP of 228W.</description>
+    <description>Total duration: 60 minutes. Séance VO2max pour booster ton moteur Fred ! Basé sur un FTP de 228W.</description>
     <sportType>bike</sportType>
     <tags>
         <tag name="VO2MAX"/>
     </tags>
     <workout>
         <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
-            <textevent timeoffset="0" message="Let's begin the 7-minute warm-up ramp."/>
-            <textevent timeoffset="410" message="Get ready for the activators."/>
+            <textevent timeoffset="0" message="Salut Fred ! Prêt pour faire chauffer la machine ?"/>
+            <textevent timeoffset="60" message="On commence tranquille, tourne les jambes."/>
+            <textevent timeoffset="180" message="Respire bien, la séance va être tonique aujourd'hui !"/>
+            <textevent timeoffset="300" message="Allez, on monte un peu en température."/>
+            <textevent timeoffset="400" message="Prépare-toi pour les activateurs, Fred !"/>
         </Warmup>
         <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01">
-            <textevent timeoffset="0" message="Activators: 30 seconds easy, 30 seconds at FTP."/>
-            <textevent timeoffset="170" message="Activators complete. Main set is next."/>
+            <textevent timeoffset="0" message="Activateurs : 30s cool, 30s FTP. C'est parti !"/>
+            <textevent timeoffset="30" message="Allez Fred, on réveille les fibres !"/>
+            <textevent timeoffset="90" message="Deuxième accélération, go !"/>
+            <textevent timeoffset="150" message="Dernier petit coup de boost !"/>
+            <textevent timeoffset="170" message="Super ! Maintenant récupère un peu avant le plat de résistance."/>
         </IntervalsT>
         <IntervalsT Repeat="5" OnDuration="180" OnPower="1.15" OffDuration="180" OffPower="0.55">
-            <textevent timeoffset="0" message="Interval 1 of 5. 3 minutes at 262W. Find a hard but sustainable rhythm."/>
-            <textevent timeoffset="170" message="Almost there..."/>
-            <textevent timeoffset="180" message="Good. Recover. Bring the heart rate down."/>
-            <textevent timeoffset="360" message="Interval 2 of 5. Let's go! Same focus."/>
-            <textevent timeoffset="530" message="Stay strong."/>
-            <textevent timeoffset="540" message="Recovery. Two down."/>
-            <textevent timeoffset="720" message="Interval 3 of 5. This is the halfway point. Dig in."/>
-            <textevent timeoffset="890" message="Push through."/>
-            <textevent timeoffset="900" message="Excellent. Recover."/>
-            <textevent timeoffset="1080" message="Interval 4 of 5. This is where the real gains are made."/>
-            <textevent timeoffset="1250" message="Don't quit."/>
-            <textevent timeoffset="1260" message="Great work. One last interval to go."/>
-            <textevent timeoffset="1440" message="Final interval! Empty the tank."/>
-            <textevent timeoffset="1610" message="Finish strong!"/>
-            <textevent timeoffset="1620" message="Main set complete! Fantastic effort."/>
+            <textevent timeoffset="0" message="Intervalle 1/5. 3 minutes à 262W. Allez mon Fred !"/>
+            <textevent timeoffset="60" message="Garde la cadence, tu es une machine !"/>
+            <textevent timeoffset="120" message="Plus qu'une minute, tiens bon !"/>
+            <textevent timeoffset="170" message="Allez, jusqu'au bout !"/>
+            <textevent timeoffset="180" message="Bien joué ! Respire, bois un coup."/>
+            <textevent timeoffset="360" message="Intervalle 2/5. C'est reparti ! Montre-moi ce que tu as."/>
+            <textevent timeoffset="450" message="Ne lâche rien Fred, c'est là que ça compte."/>
+            <textevent timeoffset="530" message="Allez, écrase les pédales !"/>
+            <textevent timeoffset="540" message="Récupération. Déjà deux de faits. Facile pour toi !"/>
+            <textevent timeoffset="720" message="Intervalle 3/5. On passe la mi-temps. Courage !"/>
+            <textevent timeoffset="800" message="Ça commence à chauffer ? C'est bon signe !"/>
+            <textevent timeoffset="890" message="Encore un effort..."/>
+            <textevent timeoffset="900" message="Ouf ! Respire par le nez, gonfle le ventre."/>
+            <textevent timeoffset="1080" message="Intervalle 4/5. Allez Fred, c'est dans la tête maintenant."/>
+            <textevent timeoffset="1150" message="Pense à ton objectif : l'Alpe du Zwift en moins d'une heure !"/>
+            <textevent timeoffset="1250" message="Ne mollis pas !"/>
+            <textevent timeoffset="1260" message="Superbe. Il n'en reste plus qu'un. Le dernier pour la gloire !"/>
+            <textevent timeoffset="1440" message="Intervalle 5/5. Vide le réservoir Fred ! TOUT !" />
+            <textevent timeoffset="1530" message="Allez, on ne garde rien, c'est la fin !"/>
+            <textevent timeoffset="1610" message="SPRINT FINAL FRED !"/>
+            <textevent timeoffset="1620" message="ÉNORME ! Bravo Fred, c'était costaud."/>
         </IntervalsT>
         <SteadyState Duration="1020" Power="0.70">
-            <textevent timeoffset="0" message="Now for 17 minutes of endurance riding at 160W."/>
-            <textevent timeoffset="1010" message="Get ready for the cool-down."/>
+            <textevent timeoffset="0" message="Maintenant, 17 minutes d'endurance à 160W. Récompense."/>
+            <textevent timeoffset="120" message="Profite, redescends en pulsations."/>
+            <textevent timeoffset="300" message="Tu as bien mérité cette balade."/>
+            <textevent timeoffset="600" message="On est pas bien là ? Tranquille sur le vélo."/>
+            <textevent timeoffset="900" message="Bientôt la douche Fred, courage."/>
+            <textevent timeoffset="1010" message="Prépare-toi pour le retour au calme complet."/>
         </SteadyState>
         <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
-            <textevent timeoffset="0" message="Cool-down. Let your heart rate come down gradually."/>
-            <textevent timeoffset="170" message="Workout complete. Well done."/>
+            <textevent timeoffset="0" message="Retour au calme. Laisse glisser."/>
+            <textevent timeoffset="100" message="Merci pour les efforts aujourd'hui."/>
+            <textevent timeoffset="170" message="Séance terminée ! Repose-toi bien Fred."/>
         </Cooldown>
     </workout>
 </workout_file>
