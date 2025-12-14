@@ -1,0 +1,16 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W04-Sunday-Recovery-60</name>
+    <description>Semaine 4. Sortie libre ou group ride cool. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60"/>
+        <SteadyState Duration="3000" Power="0.60">
+            <textevent timeoffset="0" message="Profite de Zwift. Pas de pression."/>
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.30"/>
+    </workout>
+</workout_file>

@@ -28,7 +28,7 @@ This plan is laser-focused on achieving four key goals. Failure is not an option
 
 ## 📁 How This Works
 
-**[👉 View the Detailed Weekly Training Plan (Watts & Weights)](WEEKLY_TRAINING.md)**
+**[👉 View the Master Training Plan & Periodization](TRAINING.md)**
 
 This repository is organized into weekly training blocks.
 
