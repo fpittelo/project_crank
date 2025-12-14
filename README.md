@@ -8,10 +8,10 @@ Welcome to my personal training hub! This repository is the home of my structure
 
 ## 👨‍🚀 The Rider
 
-* **Age:** 55
-* **Height:** 175cm
-* **Weight:** 68kg
-* **Current FTP:** 228W
+- **Age:** 55
+- **Height:** 175cm
+- **Weight:** 68kg
+- **Current FTP:** 228W
 
 ---
 
@@ -19,14 +19,16 @@ Welcome to my personal training hub! This repository is the home of my structure
 
 This plan is laser-focused on achieving four key goals. Failure is not an option!
 
-* [ ] **Boost the Engine:** Significantly improve my $VO_2$ max.
-* [ ] **Raise the Ceiling:** Increase my Functional Threshold Power (FTP).
-* [ ] **Dominate the Races:** Improve my performance and tactics in Zwift races.
-* [ ] **Conquer the Alpe:** Ascend Alpe du Zwift in **under 60 minutes**. 🏔️
+- [ ] **Boost the Engine:** Significantly improve my $VO_2$ max.
+- [ ] **Raise the Ceiling:** Increase my Functional Threshold Power (FTP).
+- [ ] **Dominate the Races:** Improve my performance and tactics in Zwift races.
+- [ ] **Conquer the Alpe:** Ascend Alpe du Zwift in **under 60 minutes**. 🏔️
 
 ---
 
 ## 📁 How This Works
+
+**[👉 View the Master Training Plan & Periodization](TRAINING.md)**
 
 This repository is organized into weekly training blocks.
 
