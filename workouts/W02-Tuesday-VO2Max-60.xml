@@ -1,0 +1,28 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W02-Tuesday-VO2Max-60</name>
+    <description>Semaine 2. On augmente légrèement la difficulté Fred. 5x3min VO2Max. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="VO2MAX"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Salut Fred ! Semaine 2, on garde le rythme."/>
+            <textevent timeoffset="300" message="Le corps s'adapte, c'est le moment de pousser."/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01">
+            <textevent timeoffset="0" message="Activateurs en place."/>
+        </IntervalsT>
+        <IntervalsT Repeat="5" OnDuration="180" OnPower="1.18" OffDuration="180" OffPower="0.55">
+            <textevent timeoffset="0" message="5x3min mais un poil plus fort (269W). Allez Fred !"/>
+            <textevent timeoffset="170" message="Allez, jusqu'au bout !"/>
+        </IntervalsT>
+        <SteadyState Duration="1020" Power="0.70">
+            <textevent timeoffset="0" message="Endurance pour finir."/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Retour au calme."/>
+        </Cooldown>
+    </workout>
+</workout_file>

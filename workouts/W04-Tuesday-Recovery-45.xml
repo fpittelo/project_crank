@@ -1,0 +1,20 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W04-Tuesday-Recovery-45</name>
+    <description>Semaine 4. Récupération. On relâche la pression Fred. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60">
+            <textevent timeoffset="0" message="Semaine de récupération. Profite, c'est facile."/>
+        </Warmup>
+        <SteadyState Duration="2100" Power="0.65">
+            <textevent timeoffset="0" message="35 minutes en Zone 2 basse. Tourne les jambes."/>
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.30">
+            <textevent timeoffset="0" message="Cool down."/>
+        </Cooldown>
+    </workout>
+</workout_file>

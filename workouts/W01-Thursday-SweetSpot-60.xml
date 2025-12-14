@@ -1,0 +1,51 @@
+<workout_file>
+    <author>COACH</author>
+    <name>2-Thursday-SweetSpot-60</name>
+    <description>Total duration: 60 minutes. Séance Sweet Spot pour construire ton endurance musculaire Fred. Basé sur un FTP de 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="SWEETSPOT"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Salut Fred ! Prêt pour une symphonie en Sweet Spot ?"/>
+            <textevent timeoffset="120" message="Réveille les jambes en douceur."/>
+            <textevent timeoffset="300" message="Concentre-toi, aujourd'hui on bosse le long terme."/>
+            <textevent timeoffset="410" message="Attention, petits activateurs pour se mettre en jambe !"/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01">
+            <textevent timeoffset="0" message="30s cool, 30s FTP. C'est parti !"/>
+            <textevent timeoffset="30" message="Hop ! Un petit coup de gaz !"/>
+            <textevent timeoffset="90" message="Allez Fred, on fait tourner !"/>
+            <textevent timeoffset="150" message="Dernière accélération avant le sérieux."/>
+            <textevent timeoffset="170" message="Bien joué. Respire, le premier bloc arrive."/>
+        </IntervalsT>
+        <SteadyState Duration="1200" Power="0.90">
+            <textevent timeoffset="0" message="Bloc 1/2. 20 minutes à 205W. Installe-toi confortablement."/>
+            <textevent timeoffset="120" message="Trouve ta cadence idéale, Fred. Fluide."/>
+            <textevent timeoffset="300" message="5 minutes de faites. Tu es un métronome."/>
+            <textevent timeoffset="600" message="Mi-parcours sur ce bloc. C'est facile pour toi !"/>
+            <textevent timeoffset="900" message="Allez, plus que 5 minutes. Reste gainé."/>
+            <textevent timeoffset="1080" message="2 minutes Fred ! Ne t'endors pas !"/>
+            <textevent timeoffset="1190" message="Superbe régularité !"/>
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="5 minutes de récup. Bois un coup, détends les épaules."/>
+            <textevent timeoffset="150" message="Profite, le deuxième bloc sera tout aussi bon."/>
+            <textevent timeoffset="290" message="Prêt pour le round 2, Fred ?"/>
+        </SteadyState>
+        <SteadyState Duration="1200" Power="0.90">
+            <textevent timeoffset="0" message="Bloc 2/2. C'est reparti pour 20 minutes !"/>
+            <textevent timeoffset="180" message="Allez Fred, c'est là qu'on construit le FTP."/>
+            <textevent timeoffset="600" message="10 minutes restantes. Tu es solide comme un roc."/>
+            <textevent timeoffset="900" message="Le mental Fred, le mental ! Tu l'as !"/>
+            <textevent timeoffset="1140" message="Dernière minute ! Fais-toi plaisir !"/>
+            <textevent timeoffset="1190" message="Fini ! Trop fort."/>
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Retour au calme très mérité."/>
+            <textevent timeoffset="150" message="Belle séance Fred. Tu vas voler dans l'Alpe !"/>
+            <textevent timeoffset="290" message="A la prochaine !"/>
+        </Cooldown>
+    </workout>
+</workout_file>

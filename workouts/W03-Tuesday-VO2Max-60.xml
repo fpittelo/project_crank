@@ -1,0 +1,24 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W03-Tuesday-VO2Max-60</name>
+    <description>Semaine 3. Le pic du bloc. 6x3min VO2Max. Ca va piquer Fred ! Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="VO2MAX"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Semaine 3 Fred. C'est la grosse semaine du bloc."/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01"/>
+        <IntervalsT Repeat="6" OnDuration="180" OnPower="1.20" OffDuration="180" OffPower="0.55">
+            <textevent timeoffset="0" message="6 intervalles aujourd'hui. 6x3min à 273W. Courage !"/>
+            <textevent timeoffset="170" message="Allez, relâche."/>
+            <textevent timeoffset="2000" message="Dernier ! Vide tout !"/>
+        </IntervalsT>
+        <SteadyState Duration="660" Power="0.70">
+            <textevent timeoffset="0" message="Endurance pour rentrer. Bien joué."/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37"/>
+    </workout>
+</workout_file>

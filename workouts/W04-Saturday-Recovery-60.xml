@@ -1,0 +1,16 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W04-Saturday-Recovery-60</name>
+    <description>Semaine 4. Sortie café virtuelle. 1h00 cool. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="RECOVERY"/>
+    </tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60"/>
+        <SteadyState Duration="3000" Power="0.65">
+            <textevent timeoffset="0" message="50 minutes balade."/>
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.30"/>
+    </workout>
+</workout_file>
