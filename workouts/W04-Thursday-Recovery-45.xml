@@ -1,15 +1,25 @@
 <workout_file>
     <author>COACH</author>
     <name>W04-Thursday-Recovery-45</name>
-    <description>Semaine 4. Récupération active. Zone 1/2. Basé sur 228W.</description>
+    <description>Semaine 4. Récupération active + petits sprints. Basé sur 228W.</description>
     <sportType>bike</sportType>
     <tags>
         <tag name="RECOVERY"/>
     </tags>
     <workout>
-        <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60"/>
-        <SteadyState Duration="2100" Power="0.60">
-            <textevent timeoffset="0" message="Juste tourner les jambes aujourd'hui."/>
+        <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60">
+            <textevent timeoffset="0" message="Salut Fred. Toujours la récup."/>
+        </Warmup>
+        <SteadyState Duration="900" Power="0.65">
+             <textevent timeoffset="0" message="15 minutes de chauffe tranquille."/>
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="10" OnPower="1.50" OffDuration="290" OffPower="0.55">
+            <textevent timeoffset="0" message="Petit sprint de 10s pour débloquer, puis 5 min cool."/>
+            <textevent timeoffset="300" message="2ème petit déblocage. Juste pour la vélocité."/>
+            <textevent timeoffset="600" message="Dernier petit frisson."/>
+        </IntervalsT>
+        <SteadyState Duration="600" Power="0.60">
+            <textevent timeoffset="0" message="On finit en douceur 10 min."/>
         </SteadyState>
         <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.30"/>
     </workout>

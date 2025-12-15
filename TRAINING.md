@@ -48,7 +48,7 @@ This template adapts based on the current Phase.
 | **Tuesday**  | 🚴 Zwift      | **Base:** VO2 Max / **Build:** Race or Threshold    | 60 mins        |
 | **Thursday** | 🚴 Zwift      | **Base:** Sweet Spot / **Build:** Race or Threshold | 60 mins        |
 | **Friday**   | 🏋️ Kettlebell | **Strength & Stability** (Year Round)               | 60 mins        |
-| **Saturday** | 🚴 Zwift      | **Endurance** (Long Ride)                           | 90-120 mins    |
+| **Saturday** | 🚴 Zwift      | **Endurance** (Long Ride)                           | 90 mins        |
 | **Sunday**   | 🚴 Zwift      | **Climbing / Tempo**                                | 90 mins        |
 | **Total**    |               |                                                     | **~6-8 Hours** |
 

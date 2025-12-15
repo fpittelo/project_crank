@@ -1,0 +1,43 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W03-Sunday-Climbing-90</name>
+    <description>Semaine 3. Alpe Sim Hard + Endurance. 3x18min @ 92% puis Z2. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="CLIMBING"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Dimanche. Le gros morceau. 3x18min à 92%."/>
+            <textevent timeoffset="180" message="C'est presque du seuil. Ça va tirer."/>
+        </Warmup>
+        <SteadyState Duration="1080" Power="0.92">
+            <textevent timeoffset="0" message="18 minutes à 210W. C'est parti."/>
+            <textevent timeoffset="540" message="Moitié du premier bloc."/>
+            <textevent timeoffset="900" message="3 minutes. Reste solide."/>
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Récupération bien méritée 5 min."/>
+        </SteadyState>
+        <SteadyState Duration="1080" Power="0.92">
+            <textevent timeoffset="0" message="2ème bloc de 18 minutes. Le plus dur mentalement."/>
+            <textevent timeoffset="300" message="Visualise le virage 10 de l'Alpe."/>
+            <textevent timeoffset="800" message="Allez, plus que quelques minutes."/>
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+             <textevent timeoffset="0" message="Récup. Un dernier effort et c'est la fin du bloc."/>
+        </SteadyState>
+        <SteadyState Duration="1080" Power="0.92">
+            <textevent timeoffset="0" message="Dernier 18 minutes ! Donne tout ce qu'il reste."/>
+            <textevent timeoffset="540" message="Tu es fort Fred. 3.35 W/kg actuellement, bientôt plus !"/>
+            <textevent timeoffset="900" message="3 minutes !"/>
+            <textevent timeoffset="1050" message="SPRINT !"/>
+        </SteadyState>
+        <SteadyState Duration="960" Power="0.65">
+            <textevent timeoffset="0" message="Superbe ! On finit en roue libre (ou presque) 16 min."/>
+            <textevent timeoffset="300" message="Profite de la dopamine."/>
+            <textevent timeoffset="900" message="Fin de la semaine 3 !"/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37"/>
+    </workout>
+</workout_file>

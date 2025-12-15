@@ -1,0 +1,32 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W02-Saturday-Endurance-90</name>
+    <description>Semaine 2. 1h30 d'endurance. Respect des contraintes (max 90min). Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ENDURANCE"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Bon week-end Fred ! Place à l'endurance."/>
+            <textevent timeoffset="180" message="Aujourd'hui, c'est relax mais sérieux."/>
+            <textevent timeoffset="360" message="Zone 2 stricte. On ne s'enflamme pas."/>
+        </Warmup>
+        <SteadyState Duration="4800" Power="0.70">
+            <textevent timeoffset="0" message="C'est parti pour 1h20 de métronome à 160W."/>
+            <textevent timeoffset="600" message="10 minutes. Vérifie ta position. Épaules basses ?"/>
+            <textevent timeoffset="1200" message="20 minutes. N'oublie pas de boire régulièrement."/>
+            <textevent timeoffset="1800" message="30 minutes. Tu peux changer de position de mains."/>
+            <textevent timeoffset="2400" message="40 minutes. Mi-parcours ! Tu es régulier comme une horloge."/>
+            <textevent timeoffset="2410" message="Le saviez-vous ? L'Alpe d'Huez a 21 virages."/>
+            <textevent timeoffset="3000" message="50 minutes. Respire par le nez si tu peux."/>
+            <textevent timeoffset="3600" message="1 heure de faite ! Plus que 20 minutes."/>
+            <textevent timeoffset="4200" message="Derniers 10 minutes à ce rythme."/>
+            <textevent timeoffset="4700" message="Bientôt la fin."/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Retour au calme. Bien joué !"/>
+            <textevent timeoffset="100" message="À demain pour la grimpe !"/>
+        </Cooldown>
+    </workout>
+</workout_file>

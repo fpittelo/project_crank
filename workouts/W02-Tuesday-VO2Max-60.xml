@@ -1,28 +1,45 @@
 <workout_file>
     <author>COACH</author>
     <name>W02-Tuesday-VO2Max-60</name>
-    <description>Semaine 2. On augmente légrèement la difficulté Fred. 5x3min VO2Max. Basé sur 228W.</description>
+    <description>Semaine 2. On augmente légèrement la difficulté Fred. 5x3min VO2Max. Basé sur 228W.</description>
     <sportType>bike</sportType>
     <tags>
         <tag name="VO2MAX"/>
     </tags>
     <workout>
         <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
-            <textevent timeoffset="0" message="Salut Fred ! Semaine 2, on garde le rythme."/>
-            <textevent timeoffset="300" message="Le corps s'adapte, c'est le moment de pousser."/>
+            <textevent timeoffset="0" message="Salut Fred ! Semaine 2, on est reparti !"/>
+            <textevent timeoffset="60" message="J'espère que tu as bien récupéré de la semaine dernière."/>
+            <textevent timeoffset="180" message="Aujourd'hui, on monte l'intensité d'un cran : 118% FTP."/>
+            <textevent timeoffset="300" message="Concentre-toi sur ta respiration. Gonfle le ventre."/>
+            <textevent timeoffset="400" message="Prêt pour les activateurs ?"/>
         </Warmup>
         <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01">
-            <textevent timeoffset="0" message="Activateurs en place."/>
+            <textevent timeoffset="0" message="30s cool..."/>
+            <textevent timeoffset="30" message="GO ! Réveille les jambes !"/>
+            <textevent timeoffset="50" message="Allez !"/>
         </IntervalsT>
         <IntervalsT Repeat="5" OnDuration="180" OnPower="1.18" OffDuration="180" OffPower="0.55">
-            <textevent timeoffset="0" message="5x3min mais un poil plus fort (269W). Allez Fred !"/>
-            <textevent timeoffset="170" message="Allez, jusqu'au bout !"/>
+            <textevent timeoffset="0" message="3 minutes à 269W. C'est du solide Fred !"/>
+            <textevent timeoffset="60" message="Une minute de faite. Cadence fluide, gagne pas en force."/>
+            <textevent timeoffset="90" message="Mi-intervalle. Tu tiens le bon bout."/>
+            <textevent timeoffset="120" message="Plus qu'une minute ! Le job se fait maintenant."/>
+            <textevent timeoffset="150" message="30 secondes ! Ne lâche rien !"/>
+            <textevent timeoffset="170" message="SPRINT !"/>
+            <textevent timeoffset="180" message="Bien joué. Récupère. Respire profondément."/>
+            <textevent timeoffset="300" message="Prépare-toi pour le suivant..."/>
         </IntervalsT>
         <SteadyState Duration="1020" Power="0.70">
-            <textevent timeoffset="0" message="Endurance pour finir."/>
+            <textevent timeoffset="0" message="Gros travail Fred. Maintenant on fait tourner les jambes."/>
+            <textevent timeoffset="120" message="17 minutes de 'plaisir' en Zone 2."/>
+            <textevent timeoffset="300" message="C'est dans ces moments de fatigue que l'endurance se construit."/>
+            <textevent timeoffset="600" message="Relâche les épaules, plie un peu les coudes."/>
+            <textevent timeoffset="900" message="Bientôt la douche !"/>
         </SteadyState>
         <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
             <textevent timeoffset="0" message="Retour au calme."/>
+            <textevent timeoffset="60" message="Super session. Mange bien après ça."/>
+            <textevent timeoffset="170" message="À jeudi pour le Sweet Spot !"/>
         </Cooldown>
     </workout>
 </workout_file>
