@@ -1,0 +1,30 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W03-Saturday-Endurance-90</name>
+    <description>Semaine 3. 1h30 d'endurance. Constant. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="ENDURANCE"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Salut Fred. Endurance pure aujourd'hui."/>
+            <textevent timeoffset="180" message="Pas de piège, juste du pédalage."/>
+        </Warmup>
+        <SteadyState Duration="4800" Power="0.70">
+            <textevent timeoffset="0" message="1h20 à 160W."/>
+            <textevent timeoffset="600" message="Détends la mâchoire."/>
+            <textevent timeoffset="1200" message="20 minutes. Tout va bien."/>
+            <textevent timeoffset="1800" message="30 minutes. Le saviez-vous ? Le record de l'heure est > 56km."/>
+            <textevent timeoffset="2400" message="40 minutes. Mi-parcours."/>
+            <textevent timeoffset="3000" message="50 minutes. Continue de bien tourner les jambes."/>
+            <textevent timeoffset="3600" message="1 heure. Plus que 20 minutes."/>
+            <textevent timeoffset="4200" message="Derniers 10 minutes à ce rythme."/>
+            <textevent timeoffset="4750" message="Almost done."/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Cool down."/>
+            <textevent timeoffset="100" message="Demain, grosse séance 'Alpe'."/>
+        </Cooldown>
+    </workout>
+</workout_file>

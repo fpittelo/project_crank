@@ -1,0 +1,42 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W03-Thursday-SweetSpot-60</name>
+    <description>Semaine 3. Sweet Spot 2x22min @ 90%. Récup courte. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="SWEETSPOT"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Salut Fred. Jeudi difficile."/>
+            <textevent timeoffset="60" message="On allonge encore : 2x22min."/>
+            <textevent timeoffset="180" message="Et la récup ? Seulement 3 minutes !"/>
+            <textevent timeoffset="300" message="C'est ça qui forge le caractère."/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01"/>
+        <SteadyState Duration="1320" Power="0.90">
+            <textevent timeoffset="0" message="Bloc 1 : 22 minutes à 205W."/>
+            <textevent timeoffset="300" message="Installe-toi confortablement."/>
+            <textevent timeoffset="660" message="11 minutes. Tu es à la moitié."/>
+            <textevent timeoffset="900" message="Fais le vide."/>
+            <textevent timeoffset="1200" message="Dernières 2 minutes..."/>
+            <textevent timeoffset="1300" message="Allez !"/>
+        </SteadyState>
+        <SteadyState Duration="180" Power="0.55">
+            <textevent timeoffset="0" message="Récupération express : 3 minutes !"/>
+            <textevent timeoffset="60" message="Bois vite, ça repart bientôt."/>
+            <textevent timeoffset="150" message="Attention, ça reprend..."/>
+        </SteadyState>
+        <SteadyState Duration="1320" Power="0.90">
+            <textevent timeoffset="0" message="Bloc 2 : 22 minutes. C'est le money time."/>
+            <textevent timeoffset="300" message="Les jambes sont lourdes, c'est normal."/>
+            <textevent timeoffset="660" message="Encore 11 minutes."/>
+            <textevent timeoffset="1000" message="Pense à l'arrivée au sommet de l'Alpe."/>
+            <textevent timeoffset="1260" message="Minute finale ! Écrase tout !"/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Ouf ! Bien joué Fred."/>
+            <textevent timeoffset="100" message="Repose-toi bien pour ce week-end."/>
+        </Cooldown>
+    </workout>
+</workout_file>

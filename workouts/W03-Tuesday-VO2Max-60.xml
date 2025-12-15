@@ -1,24 +1,40 @@
 <workout_file>
     <author>COACH</author>
     <name>W03-Tuesday-VO2Max-60</name>
-    <description>Semaine 3. Le pic du bloc. 6x3min VO2Max. Ca va piquer Fred ! Basé sur 228W.</description>
+    <description>Semaine 3. Le pic du bloc. 6x3min VO2Max. Ça va piquer Fred ! Basé sur 228W.</description>
     <sportType>bike</sportType>
     <tags>
         <tag name="VO2MAX"/>
     </tags>
     <workout>
         <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
-            <textevent timeoffset="0" message="Semaine 3 Fred. C'est la grosse semaine du bloc."/>
+            <textevent timeoffset="0" message="Semaine 3 Fred. Tiens bon, c'est la plus dure !"/>
+            <textevent timeoffset="60" message="Aujourd'hui : 6 répétitions de 3 minutes."/>
+            <textevent timeoffset="180" message="120% FTP (273W). C'est très dur, mais très efficace."/>
+            <textevent timeoffset="300" message="Prépare ton mental. Tu es capable de le faire."/>
         </Warmup>
-        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01"/>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01">
+            <textevent timeoffset="0" message="Jambes légères..."/>
+            <textevent timeoffset="30" message="Feu !"/>
+        </IntervalsT>
         <IntervalsT Repeat="6" OnDuration="180" OnPower="1.20" OffDuration="180" OffPower="0.55">
-            <textevent timeoffset="0" message="6 intervalles aujourd'hui. 6x3min à 273W. Courage !"/>
-            <textevent timeoffset="170" message="Allez, relâche."/>
-            <textevent timeoffset="2000" message="Dernier ! Vide tout !"/>
+            <textevent timeoffset="0" message="3 minutes à 273W. Allez !"/>
+            <textevent timeoffset="60" message="Respire ! Ne t'apnée pas !"/>
+            <textevent timeoffset="90" message="Mi-intervalle. C'est l'acide lactique qui te rend fort."/>
+            <textevent timeoffset="150" message="30 secondes ! Accroche-toi !"/>
+            <textevent timeoffset="170" message="TERMINE !!!"/>
+            <textevent timeoffset="180" message="Relâche. 3 minutes de répit."/>
+            <textevent timeoffset="350" message="Prépare-toi pour le suivant. Reset mental."/>
         </IntervalsT>
         <SteadyState Duration="660" Power="0.70">
-            <textevent timeoffset="0" message="Endurance pour rentrer. Bien joué."/>
+            <textevent timeoffset="0" message="C'est fini pour le dur ! Énorme séance."/>
+            <textevent timeoffset="60" message="Si tu as survécu à ça, l'Alpe n'est qu'une formalité."/>
+            <textevent timeoffset="300" message="Profite des 6 minutes restantes."/>
+            <textevent timeoffset="600" message="Top."/>
         </SteadyState>
-        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37"/>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Calme. Bois beaucoup."/>
+            <textevent timeoffset="100" message="À jeudi."/>
+        </Cooldown>
     </workout>
 </workout_file>

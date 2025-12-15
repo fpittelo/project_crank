@@ -1,16 +1,25 @@
 <workout_file>
     <author>COACH</author>
     <name>W04-Sunday-Recovery-60</name>
-    <description>Semaine 4. Sortie libre ou group ride cool. Basé sur 228W.</description>
+    <description>Semaine 4. Dernière récup avant le bloc suivant. 1h cool. Basé sur 228W.</description>
     <sportType>bike</sportType>
     <tags>
         <tag name="RECOVERY"/>
     </tags>
     <workout>
-        <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60"/>
-        <SteadyState Duration="3000" Power="0.60">
-            <textevent timeoffset="0" message="Profite de Zwift. Pas de pression."/>
+        <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60">
+            <textevent timeoffset="0" message="Dernière séance 'relax' du bloc."/>
+        </Warmup>
+        <SteadyState Duration="3000" Power="0.65">
+            <textevent timeoffset="0" message="50 minutes Zone 1/2."/>
+            <textevent timeoffset="600" message="Dès la semaine prochaine, on attaque la Phase 2 (Build)."/>
+            <textevent timeoffset="1200" message="Fais le bilan de ce premier mois."/>
+            <textevent timeoffset="1800" message="Tu as dû sentir des progrès."/>
+            <textevent timeoffset="2400" message="Le corps est prêt pour plus d'intensité."/>
         </SteadyState>
-        <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.30"/>
+        <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.30">
+            <textevent timeoffset="0" message="Bloc Base 1 terminé !"/>
+            <textevent timeoffset="60" message="Bravo Fred. On se retrouve en Semaine 5."/>
+        </Cooldown>
     </workout>
 </workout_file>

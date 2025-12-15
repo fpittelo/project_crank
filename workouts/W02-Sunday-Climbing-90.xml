@@ -7,23 +7,39 @@
         <tag name="CLIMBING"/>
     </tags>
     <workout>
-        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70"/>
-        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01"/>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Dimanche Grimpeur ! Salut Fred."/>
+            <textevent timeoffset="180" message="Aujourd'hui on prépare les jambes pour la pente."/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01">
+             <textevent timeoffset="0" message="Quelques réveils musculaires..."/>
+        </IntervalsT>
         <SteadyState Duration="900" Power="0.94">
-            <textevent timeoffset="0" message="15 minutes à 214W."/>
+            <textevent timeoffset="0" message="1er col : 15 minutes à 214W."/>
+            <textevent timeoffset="60" message="Adopte une cadence de grimpeur : 70-80 rpm."/>
+            <textevent timeoffset="450" message="Mi-col. Imagine la vue !"/>
+            <textevent timeoffset="800" message="Allez, jusqu'au sommet !"/>
         </SteadyState>
         <SteadyState Duration="300" Power="0.55">
-            <textevent timeoffset="0" message="Récup."/>
+            <textevent timeoffset="0" message="Descente. Récupère."/>
         </SteadyState>
         <SteadyState Duration="900" Power="0.94">
-            <textevent timeoffset="0" message="2ème bloc."/>
+            <textevent timeoffset="0" message="2ème col. C'est reparti."/>
+            <textevent timeoffset="300" message="Mets-toi en danseuse pendant 20 secondes pour détendre le dos."/>
+            <textevent timeoffset="600" message="Reste gainé. Le haut du corps ne bouge pas."/>
         </SteadyState>
         <SteadyState Duration="300" Power="0.55">
-            <textevent timeoffset="0" message="Récup."/>
+            <textevent timeoffset="0" message="Récup. Encore un effort après ça."/>
         </SteadyState>
         <SteadyState Duration="900" Power="0.94">
-            <textevent timeoffset="0" message="Dernier bloc. Allez Fred !"/>
+            <textevent timeoffset="0" message="Dernier col Fred ! Le plus beau."/>
+            <textevent timeoffset="300" message="Quand ça fait mal, pense à ton objectif."/>
+            <textevent timeoffset="600" message="Moins de 5 minutes !"/>
+            <textevent timeoffset="850" message="Sprint au sommet !"/>
         </SteadyState>
-        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.37"/>
+        <Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Bravo ! Sommet atteint 3 fois."/>
+            <textevent timeoffset="300" message="Bon dimanche Fred. Repose-toi bien."/>
+        </Cooldown>
     </workout>
 </workout_file>
