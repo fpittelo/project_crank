@@ -8,13 +8,19 @@
     </tags>
     <workout>
         <Warmup Duration="300" PowerLow="0.37" PowerHigh="0.60">
-            <textevent timeoffset="0" message="Semaine de récupération. Profite, c'est facile."/>
+            <textevent timeoffset="0" message="Semaine de récupération !"/>
+            <textevent timeoffset="60" message="Tu as bien bossé les 3 dernières semaines."/>
+            <textevent timeoffset="120" message="Maintenant, il faut laisser le corps absorber."/>
         </Warmup>
         <SteadyState Duration="2100" Power="0.65">
-            <textevent timeoffset="0" message="35 minutes en Zone 2 basse. Tourne les jambes."/>
+            <textevent timeoffset="0" message="35 minutes très cool. 148W max."/>
+            <textevent timeoffset="600" message="Si tu te sens fort, NE POUSSE PAS."/>
+            <textevent timeoffset="1200" message="Profite pour travailler ta souplesse de pédalage."/>
+            <textevent timeoffset="1800" message="Bientôt fini. C'était court, non ?"/>
         </SteadyState>
         <Cooldown Duration="300" PowerLow="0.50" PowerHigh="0.30">
             <textevent timeoffset="0" message="Cool down."/>
+            <textevent timeoffset="60" message="Repos demain."/>
         </Cooldown>
     </workout>
 </workout_file>

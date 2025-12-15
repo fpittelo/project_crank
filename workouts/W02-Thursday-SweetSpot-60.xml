@@ -1,0 +1,41 @@
+<workout_file>
+    <author>COACH</author>
+    <name>W02-Thursday-SweetSpot-60</name>
+    <description>Semaine 2. Sweet Spot 2x21min @ 90%. Max 1h. Basé sur 228W.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="SWEETSPOT"/>
+    </tags>
+    <workout>
+        <Warmup Duration="420" PowerLow="0.37" PowerHigh="0.70">
+            <textevent timeoffset="0" message="Salut Fred ! Jeudi = Sweet Spot."/>
+            <textevent timeoffset="60" message="L'objectif : augmenter ta résistance à la fatigue."/>
+            <textevent timeoffset="300" message="On va faire 2 blocs de 21 minutes à 90%."/>
+            <textevent timeoffset="360" message="C'est l'intensité idéale pour monter l'FTP sans trop de fatigue."/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="30" OnPower="0.55" OffDuration="30" OffPower="1.01"/>
+        <SteadyState Duration="1260" Power="0.90">
+            <textevent timeoffset="0" message="C'est parti ! 21 minutes à 205W."/>
+            <textevent timeoffset="300" message="Trouve ta cadence de confort. 85-95 rpm idéalement."/>
+            <textevent timeoffset="630" message="Mi-parcours du premier bloc. Facile !"/>
+            <textevent timeoffset="900" message="Reste focus. Pas de drift cardiaque si possible."/>
+            <textevent timeoffset="1200" message="Dernière minute !"/>
+        </SteadyState>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Récupération 5 min. Bois une gorgée."/>
+            <textevent timeoffset="240" message="Prêt pour le 2ème round ?"/>
+        </SteadyState>
+        <SteadyState Duration="1260" Power="0.90">
+            <textevent timeoffset="0" message="Allez Fred, on remet ça. 21 minutes."/>
+            <textevent timeoffset="300" message="Imagine-toi dans les lacets de l'Alpe du Zwift."/>
+            <textevent timeoffset="630" message="10 minutes passées. Tu es un métronome."/>
+            <textevent timeoffset="900" message="Ça tire un peu ? C'est normal. Respire."/>
+            <textevent timeoffset="1200" message="Allez, finis fort !"/>
+            <textevent timeoffset="1250" message="Fini !"/>
+        </SteadyState>
+        <Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.37">
+            <textevent timeoffset="0" message="Cool down 3 min."/>
+            <textevent timeoffset="60" message="Encore une brique posée pour ton objectif."/>
+        </Cooldown>
+    </workout>
+</workout_file>
