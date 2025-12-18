@@ -8,7 +8,7 @@ Welcome to my personal training hub! This repository is the home of my structure
 
 ## 👨‍🚀 The Rider
 
-- **Age:** 55
+- **Age:** Born 1969
 - **Height:** 175cm
 - **Weight:** 68kg
 - **Current FTP:** 228W
